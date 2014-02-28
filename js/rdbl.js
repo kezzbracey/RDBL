@@ -143,7 +143,7 @@ function init_rdbl(min_rdbl_chx, max_rdbl_chx){
 		removeHighlight();
 	});
 
-	default_rdbl_target = ['article', 'main'];
+	default_rdbl_target = ['article', 'section', 'main'];
 	no_el_warning = '<p style="color:#C00;">Enter the ID / class / tag  of your target element below including any "." or "#", (can\'t use body tag).</p>';
 
 	for (var tgt in default_rdbl_target){
